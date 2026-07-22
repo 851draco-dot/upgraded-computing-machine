@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- hexagon outline -->
+  <path d="M100 14 L174 57 L174 143 L100 186 L26 143 L26 57 Z"
+        stroke="#F5A623" stroke-width="6" stroke-linejoin="round"/>
+  <!-- orbital ring -->
+  <ellipse cx="100" cy="100" rx="52" ry="30"
+           stroke="#39D5FF" stroke-width="4"
+           transform="rotate(-18 100 100)"/>
+  <!-- orbit node -->
+  <circle cx="148" cy="84" r="6" fill="#39D5FF"/>
+  <!-- ascending route polyline -->
+  <path d="M58 132 L84 108 L104 118 L142 74"
+        stroke="#F5A623" stroke-width="6"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- waypoint dots -->
+  <circle cx="58" cy="132" r="5" fill="#F5A623"/>
+  <circle cx="84" cy="108" r="4" fill="#F5A623"/>
+  <circle cx="104" cy="118" r="4" fill="#F5A623"/>
+  <!-- arrowhead -->
+  <path d="M142 74 L126 76 M142 74 L138 90"
+        stroke="#F5A623" stroke-width="6" stroke-linecap="round"/>
+</svg>
